@@ -1,0 +1,13 @@
+torch==1.13.1
+numpy
+opencv-python
+matplotlib
+wandb==0.15.4
+tqdm==4.63.2
+scikit-image==0.20.0
+scikit-learn==1.2.2
+scipy==1.9.1
+opencv-python==4.7.0.72
+pandas==2.0.1
+MedPy==0.4.0
+monai==1.1.0
