@@ -1,4 +1,5 @@
 ﻿# Efficient Medical Image Segmentation with Rectifed Flow-Based Diffusion Transformer
+This model is a novel rectified flow-based segmentation model that retains its original structure with reduced computational costs. And, The paper of this has been officially accepted by ICONIP 2025 Poster.
 
 ## Model overview
 ![Model overview](assets/overview.png)
@@ -42,4 +43,5 @@ Please cite -->
   year={2023}
 }
 ~~~ -->
+
 
