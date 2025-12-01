@@ -6,7 +6,6 @@
 # <div align="center"> Efficient Medical Image Segmentation with Rectifed Flow-Based Diffusion Transformer<div> 
 ### <div align="center"> ICONIP 2025 poster <div> 
 <div align="center">
-
   <!-- Paper (Springer) -->
   <a href="https://link.springer.com/chapter/10.1007/978-981-95-4100-3_1">
     <img src="https://img.shields.io/static/v1?label=Paper&message=ICONIP%202025&color=1E5AA8&logo=springer" />
@@ -23,6 +22,8 @@
   </a>
 
 </div>
+---
+This model is a novel diffusion-based segmentation framework that reduces computational costs while maintaining its original performance. The paper has been officially accepted by ICONIP 2025.
 
 > [**Efficient Medical Image Segmentation with Rectifed Flow-Based Diffusion Transformer**](https://link.springer.com/chapter/10.1007/978-981-95-4100-3_1)<br>
 > [Shunichi Kato](https://scholar.google.co.jp/citations?user=EeT3vBcAAAAJ&hl=ja), [Masaki Nishimura](https://scholar.google.co.jp/citations?user=Uel-5SgAAAAJ&hl=ja&oi=sra), 
@@ -122,6 +123,7 @@ Please cite
   organization={Springer}
 }
 ~~~
+
 
 
 
