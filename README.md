@@ -19,10 +19,11 @@
 
   <!-- Code -->
   <a href="https://github.com/kato0116/Efficient_Medical_Image_Segmentation_with_RF-Based_Diffusion_Transformer">
-    <img src="https://img.shields.io/github/stars/kato0116/Efficient_Medical_Image_Segmentation_with_RF-Based_Diffusion_Transformer?style=social&label=Code" />
+    <img src="https://img.shields.io/static/v1?label=Code&message=GitHub&color=black&logo=github" />
   </a>
 
 </div>
+
 
 
 <!-- <div align="center">
@@ -63,6 +64,7 @@ Please cite
   organization={Springer}
 }
 ~~~
+
 
 
 
