@@ -3,7 +3,7 @@
 </p> -->
 
 
-### <div align="center">👉 Efficient Medical Image Segmentation with Rectifed Flow-Based Diffusion Transformer<div> 
+# <div align="center">👉 Efficient Medical Image Segmentation with Rectifed Flow-Based Diffusion Transformer<div> 
 ### <div align="center"> ICONIP 2025 poster <div> 
 
 <div align="center">
@@ -49,5 +49,6 @@ Please cite
   organization={Springer}
 }
 ~~~
+
 
 
