@@ -22,7 +22,9 @@
   </a>
 
 </div>
+
 ---
+
 This model is a novel diffusion-based segmentation framework that reduces computational costs while maintaining its original performance. The paper has been officially accepted by ICONIP 2025.
 
 > [**Efficient Medical Image Segmentation with Rectifed Flow-Based Diffusion Transformer**](https://link.springer.com/chapter/10.1007/978-981-95-4100-3_1)<br>
@@ -31,33 +33,10 @@ This model is a novel diffusion-based segmentation framework that reduces comput
 > [Ikuko Nishikawa](https://scholar.google.co.jp/citations?view_op=list_works&hl=ja&hl=ja&user=cWumpokAAAAJ&pagesize=80);,
 > <br>Ritsumeikan University<br>
 
+---
 
 ### Model overview
 ![Model overview](assets/overview.png)
-
-### Training Procedure (Rectified Flow for Segmentation)
-
-```python
-# Pseudocode
-Input:
-    D = {(x_i, y_i)} : Dataset of segmentation map and medical image pairs
-Parameters:
-    E_x : Pretrained VAE encoder (weights are frozen)
-    v_theta : Trainable velocity network
-
-repeat:
-    (x_i, y_i) ← sample from D
-    z0 ← sample from N(0, I)
-    t ← Uniform(0, 1)
-    
-    z1 = E_x(x_i)
-    zt = (1 - t) * z0 + t * z1
-    
-    L = || (z1 - z0) - v_theta(zt, y_i, t) ||^2
-    Update v_theta using ∇L
-    
-until convergence
-```
 
 ### Inference: Euler Method with Intermediate Ensembles
 
@@ -123,6 +102,7 @@ Please cite
   organization={Springer}
 }
 ~~~
+
 
 
 
