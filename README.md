@@ -34,11 +34,6 @@
 ### Model overview
 ![Model overview](assets/overview.png)
 
-### <h3 align="center">Model Overview</h3>
-<div align="center">
-  <img src="assets/overview.png" width="75%">
-</div>
-
 ### Training Procedure (Rectified Flow for Segmentation)
 
 ```python
@@ -127,6 +122,7 @@ Please cite
   organization={Springer}
 }
 ~~~
+
 
 
 
