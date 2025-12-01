@@ -34,6 +34,66 @@
 ## Model overview
 ![Model overview](assets/overview.png)
 
+### Training Procedure (Rectified Flow for Segmentation)
+
+```python
+# Pseudocode
+Input:
+    D = {(x_i, y_i)} : Dataset of segmentation map and medical image pairs
+Parameters:
+    E_x : Pretrained VAE encoder (weights are frozen)
+    v_theta : Trainable velocity network
+
+repeat:
+    (x_i, y_i) ← sample from D
+    z0 ← sample from N(0, I)
+    t ← Uniform(0, 1)
+    
+    z1 = E_x(x_i)
+    zt = (1 - t) * z0 + t * z1
+    
+    L = || (z1 - z0) - v_theta(zt, y_i, t) ||^2
+    Update v_theta using ∇L
+    
+until convergence
+```
+
+### Inference: Euler Method with Intermediate Ensembles
+
+```python
+# Pseudocode
+
+Input:
+    y : Conditioning medical image
+    N : Number of Euler steps
+    S : Ensemble size
+
+Parameters:
+    v_theta : Pretrained velocity network (fixed)
+
+Initialize:
+    dt = 1 / N
+    x1 ~ N(0, I)
+
+for i in {0 ... N-1}:
+    t = i / N
+    
+    # Ensemble sampling
+    for s in {0 ... S-1}:
+        x0_s ~ N(0, I)
+        xt_s = t * x1 + (1 - t) * x0_s
+        u_s  = v_theta(xt_s, t, y)
+    
+    # Ensemble averaging
+    u_bar  = (1/S) * sum(u_s)
+    xt_bar = (1/S) * sum(xt_s)
+    
+    # Euler update
+    x1 = xt_bar + u_bar * dt * (N - i)
+
+return x1  # Predicted mask
+```
+
 ## Requirement
 Python >= 3.8.16
 ```bash
@@ -62,6 +122,7 @@ Please cite
   organization={Springer}
 }
 ~~~
+
 
 
 
