@@ -7,9 +7,14 @@
 ### <div align="center"> ICONIP 2025 poster <div> 
 
 <div align="center">
-  <a href="https://github.com/PixArt-alpha/PixArt-sigma/"><img src="https://img.shields.io/static/v1?label=PixArt-Sigma Code&message=Github&color=blue&logo=github-pages"></a> &ensp;
-  <a href="https://arxiv.org/abs/2401.05252"><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv:Delta&color=red&logo=arxiv"></a> &ensp;
+  <a href="https://link.springer.com/chapter/10.1007/978-981-95-4100-3_1">
+    <img src="https://img.shields.io/static/v1?label=Paper&message=ICONIP%202025&color=blue&logo=springer">
+  </a>
 </div>
+
+<!-- <div align="center">
+  <a href="https://arxiv.org/abs/2401.05252"><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv:Delta&color=red&logo=arxiv"></a> &ensp;
+</div> -->
 
 ## Model overview
 ![Model overview](assets/overview.png)
@@ -42,6 +47,7 @@ Please cite
   organization={Springer}
 }
 ~~~
+
 
 
 
