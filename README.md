@@ -16,6 +16,13 @@ pip install -r requirement.txt
 - [ ] Release pre processing and post processing
 - [ ] Deploy on HuggingFace
 
+
+
+
+
+## Cite
+Please cite
+~~~
 @inproceedings{kato2025efficient,
   title={Efficient Medical Image Segmentation with Rectified Flow-Based Diffusion Transformer},
   author={Kato, Shunichi and Nishimura, Masaki and Ueda, Takaya and Song, Yu and Nishikawa, Ikuko},
@@ -23,7 +30,6 @@ pip install -r requirement.txt
   pages={3--16},
   year={2025},
   organization={Springer}
-
-
-
+}
+~~~
 
