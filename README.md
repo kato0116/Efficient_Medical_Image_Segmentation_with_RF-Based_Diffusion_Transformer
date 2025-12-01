@@ -31,7 +31,7 @@
 > <br>Ritsumeikan University<br>
 
 
-## Model overview
+### Model overview
 ![Model overview](assets/overview.png)
 
 ### Training Procedure (Rectified Flow for Segmentation)
@@ -122,6 +122,7 @@ Please cite
   organization={Springer}
 }
 ~~~
+
 
 
 
