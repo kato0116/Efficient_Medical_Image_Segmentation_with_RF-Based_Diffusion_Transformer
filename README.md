@@ -1,5 +1,5 @@
 ﻿# Efficient Medical Image Segmentation with Rectifed Flow-Based Diffusion Transformer
-This model is a novel rectified flow-based segmentation model that retains its original structure with reduced computational costs. And, The paper of this has been officially accepted by ICONIP 2025 Poster.
+This model is a novel rectified flow-based segmentation model that retains its original structure with reduced computational costs. And, The paper of this has been officially accepted by ICONIP 2025.
 
 ## Model overview
 ![Model overview](assets/overview.png)
@@ -11,16 +11,10 @@ pip install -r requirement.txt
 ```
 ## TODO LIST
 
-- [x] Fix bugs in BRATS. Add BRATS example.
 - [ ] Release REFUGE and DDIT dataloaders and examples
-- [x] Speed up sampling by DPM-solver
-- [ ] Inference of depth
-- [x] Fix bugs in Multi-GPU parallel
 - [ ] Sample and Vis in training
 - [ ] Release pre processing and post processing
-- [x] Release evaluation
 - [ ] Deploy on HuggingFace
-- [x] configuration
 
 <!-- ## Thanks
 Code copied a lot from [openai/improved-diffusion](https://github.com/openai/improved-diffusion), [WuJunde/ MrPrism](https://github.com/WuJunde/MrPrism), [WuJunde/ DiagnosisFirst](https://github.com/WuJunde/DiagnosisFirst), [LuChengTHU/dpm-solver](https://github.com/LuChengTHU/dpm-solver), [JuliaWolleb/Diffusion-based-Segmentation](https://github.com/JuliaWolleb/Diffusion-based-Segmentation), [hojonathanho/diffusion](https://github.com/hojonathanho/diffusion), [guided-diffusion](https://github.com/openai/guided-diffusion), [bigmb/Unet-Segmentation-Pytorch-Nest-of-Unets](https://github.com/bigmb/Unet-Segmentation-Pytorch-Nest-of-Unets), [nnUnet](https://github.com/MIC-DKFZ/nnUNet), [lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) -->
@@ -43,5 +37,6 @@ Please cite -->
   year={2023}
 }
 ~~~ -->
+
 
 
