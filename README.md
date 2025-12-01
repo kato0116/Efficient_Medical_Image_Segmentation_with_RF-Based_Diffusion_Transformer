@@ -25,10 +25,9 @@
 </div>
 
 > [**Efficient Medical Image Segmentation with Rectifed Flow-Based Diffusion Transformer**]([https://pixart-alpha.github.io/](https://link.springer.com/chapter/10.1007/978-981-95-4100-3_1))<br>
-> [Shunichi Kato*](https://scholar.google.co.jp/citations?user=EeT3vBcAAAAJ&hl=ja), [Masaki Nishimura*](https://scholar.google.co.jp/citations?user=Uel-5SgAAAAJ&hl=ja&oi=sra), 
-> [Takaya Ueda*], [Yu Song*],
+> [Shunichi Kato](https://scholar.google.co.jp/citations?user=EeT3vBcAAAAJ&hl=ja), [Masaki Nishimura*](https://scholar.google.co.jp/citations?user=Uel-5SgAAAAJ&hl=ja&oi=sra), 
+> Takaya Ueda, Yu Song,
 > [Ikuko Nishikawa*](https://scholar.google.co.jp/citations?view_op=list_works&hl=ja&hl=ja&user=cWumpokAAAAJ&pagesize=80)&#8224;,
-
 > <br>Ritsumeikan University<br>
 
 
@@ -63,6 +62,7 @@ Please cite
   organization={Springer}
 }
 ~~~
+
 
 
 
