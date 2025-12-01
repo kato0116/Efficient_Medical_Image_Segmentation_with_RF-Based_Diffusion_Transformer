@@ -10,12 +10,12 @@
   <!-- Paper (Springer) -->
   <a href="https://link.springer.com/chapter/10.1007/978-981-95-4100-3_1">
     <img src="https://img.shields.io/static/v1?label=Paper&message=ICONIP%202025&color=1E5AA8&logo=springer" />
-  </a> 
+  </a> &ensp;
 
   <!-- DOI -->
   <a href="https://doi.org/10.1007/978-981-95-4100-3_1">
     <img src="https://img.shields.io/static/v1?label=DOI&message=10.1007%2F978-981-95-4100-3_1&color=orange&logo=doi" />
-  </a> 
+  </a> &ensp;
 
   <!-- Code -->
   <a href="https://github.com/kato0116/Efficient_Medical_Image_Segmentation_with_RF-Based_Diffusion_Transformer">
@@ -23,14 +23,6 @@
   </a>
 
 </div>
-
-
-
-<!-- <div align="center">
-  <a href="https://link.springer.com/chapter/10.1007/978-981-95-4100-3_1">
-    <img src="https://img.shields.io/static/v1?label=Paper&message=ICONIP%202025&color=blue&logo=springer">
-  </a>
-</div> -->
 
 
 ## Model overview
@@ -64,6 +56,7 @@ Please cite
   organization={Springer}
 }
 ~~~
+
 
 
 
